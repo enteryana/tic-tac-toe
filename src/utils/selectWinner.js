@@ -7,7 +7,7 @@ const selectWinner = (playBoard, winCombinations, playerTurn) => {
             playBoard[a] === playBoard[b] &&
             playBoard[a] === playBoard[c]
         ) {
-            return `The <span>${playerTurn}</span> win! Cheers 🥂!`;
+            return `The <b>${playerTurn}</b> win! Cheers 🥂!`;
         }
     }
 

@@ -35,7 +35,7 @@ const playerTurnHandler = (e) => {
     data.turn = data.turn === 'O' ? 'X' : 'O';
 
     // update dom
-    dom.playerTurn.innerHTML = `Now <span>${data.turn}</span>'s turn`;
+    dom.playerTurn.innerHTML = `Now <b>${data.turn}</b>'s turn`;
 };
 
 export default playerTurnHandler;
